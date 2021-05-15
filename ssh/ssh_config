@@ -49,9 +49,3 @@ Host *
     SendEnv LANG LC_*
     HashKnownHosts yes
     GSSAPIAuthentication yes
-
-Host flagserver
-	PubkeyAuthentication yes
-	PasswordAuthentication no
-    HostName 82.64.124.218
-    IdentityFile ~/.ssh/id_rsa
